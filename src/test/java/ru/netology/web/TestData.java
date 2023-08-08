@@ -21,7 +21,7 @@ public class TestData {
     }
 
     @BeforeEach
-   public void beforeEach() {
+    public void beforeEach() {
         ChromeOptions options = new ChromeOptions();
         options.addArguments("--disable-dev-shm-usage");
         options.addArguments("--no-sandbox");
